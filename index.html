@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Giftastic</title>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<!-- Compiled and minified CSS -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+  	<!-- Compiled and minified JavaScript -->
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+
+ 	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+	<h1 class="flow-text center-align">Giftastic</h1>
+
+	<h2 class="flow-text center-align">Click on any button to get corresponding gifs from Giphy!</h2> 
+
+	<div class="form">
+		
+		<div class="row flow-text center-align">
+        	
+        	<div class="col s12">
+          		
+          		Add More Buttons:
+          		
+          		<div class="input-field inline">
+            	
+            		<input id="button_name" type="text">
+            	
+            		<label id="helperLabel" for="button_name" data-error="wrong" data-success="right">Text</label>
+        		
+        		</div>
+         		
+         		<a id="add" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">send</i></a>
+       		
+       		</div>
+     	
+     	</div>
+
+	</div>
+
+	<div id="buttons"></div>
+
+	<div id="gifs"></div>
+	
+</body>
+
+	<script type="text/javascript" src="javascript/javascript.js">
+	</script>
+
+</html>
