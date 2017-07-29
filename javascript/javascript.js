@@ -56,7 +56,7 @@ $(document).ready(function(){
 
 			var element = $("#gifs");
 
-			element.append('<div class="row"><div class="col s12 m6"><div class="card center-align"><div class="card-image"><img src="' + still + '"><a class="btn-floating halfway-fab waves-effect waves-light red"><i data-state="still" data-still='+ still +' data-animate='+ animate +' class="material-icons play">play_arrow</i></a></div><div class="card-content"><p>' + 'Rating: ' + rating + '</p></div></div></div></div>');
+			element.append('<div class="row"><div class="col s6 m6 offset-m3 offset-s3"><div class="card center-align"><div class="card-image"><img src="' + still + '"><a class="btn-floating halfway-fab waves-effect waves-light red"><i data-state="still" data-still='+ still +' data-animate='+ animate +' class="material-icons play">play_arrow</i></a></div><div class="card-content"><p>' + 'Rating: ' + rating + '</p></div></div></div></div>');
 
 		}
 
